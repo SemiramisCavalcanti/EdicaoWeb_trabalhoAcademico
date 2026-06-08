@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Livro de Reclamações Online - Dra. Mayra Cavalcanti">
+    <title>Livro de Reclamações | Dra. Mayra Cavalcanti</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+<body>
+    <!-- Header com Logo e Menu -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="../imagens/iconLogo.png" alt="Logo Dra. Mayra Cavalcanti" class="logo-img">
+                <span class="logo-text">Mentoria Trabalhista</span>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../paginas/sobre.html">Sobre Nós</a></li>
+                    <li><a href="../paginas/servicos.html">Serviços</a></li>
+                    <li><a href="../paginas/contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <section class="main-content">
+        <div class="container">
+            <h1>Livro de Reclamações Online</h1>
+            
+            <div class="complaints-content">
+                <p class="intro-text">Este é o Livro de Reclamações Online da Dra. Mayra Cavalcanti, conforme estabelecido pela legislação portuguesa e brasileira de proteção do consumidor.</p>
+
+                <div class="complaint-info">
+                    <h2>Como Registar uma Reclamação</h2>
+                    <p>Se tiver uma reclamação sobre os nossos serviços, pode registá-la através do formulário abaixo. Todas as reclamações serão analisadas e respondidas no prazo máximo de 10 dias úteis.</p>
+                </div>
+
+                <div class="complaint-form-wrapper">
+                    <h2>Formulário de Reclamação</h2>
+                    <form class="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+                        <div class="form-group">
+                            <label for="nome_reclamante">Nome Completo *</label>
+                            <input type="text" id="nome_reclamante" name="nome_reclamante" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email_reclamante">Email *</label>
+                            <input type="email" id="email_reclamante" name="email_reclamante" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone_reclamante">Telefone</label>
+                            <input type="tel" id="telefone_reclamante" name="telefone_reclamante">
+                        </div>
+                        <div class="form-group">
+                            <label for="data_facto">Data do Facto *</label>
+                            <input type="date" id="data_facto" name="data_facto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="descricao_reclamacao">Descrição da Reclamação *</label>
+                            <textarea id="descricao_reclamacao" name="descricao_reclamacao" rows="8" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="resolucao_pretendida">Resolução Pretendida</label>
+                            <textarea id="resolucao_pretendida" name="resolucao_pretendida" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Enviar Reclamação</button>
+                    </form>
+                </div>
+
+                <div class="complaint-rights">
+                    <h2>Seus Direitos</h2>
+                    <p>De acordo com a legislação de proteção do consumidor, você tem o direito de:</p>
+                    <ul>
+                        <li>Registar uma reclamação de forma gratuita</li>
+                        <li>Receber uma resposta no prazo máximo de 10 dias úteis</li>
+                        <li>Solicitar informações sobre o tratamento da sua reclamação</li>
+                        <li>Recorrer a entidades de resolução de conflitos se não estiver satisfeito com a resposta</li>
+                    </ul>
+                </div>
+
+                <div class="complaint-privacy">
+                    <h2>Privacidade e Confidencialidade</h2>
+                    <p>Todos os dados fornecidos neste formulário serão tratados de forma confidencial e de acordo com a nossa Política de Privacidade. As informações serão utilizadas apenas para investigar e resolver a sua reclamação.</p>
+                </div>
+
+                <div class="complaint-contact">
+                    <h2>Contacte-nos Diretamente</h2>
+                    <p>Se preferir, pode também contactar-nos diretamente:</p>
+                    <p>
+                        <strong>Email:</strong> <a href="mailto:reclamacoes@mayracavalcanti.com.br">reclamacoes@mayracavalcanti.com.br</a><br>
+                        <strong>Telefone:</strong> <a href="tel:+5581999999999">(81) 9 9999-9999</a><br>
+                        <strong>Endereço:</strong> Recife, Pernambuco, Brasil
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Sobre a Empresa</h4>
+                    <p>Mentoria especializada em legislação trabalhista, oferecendo orientação estratégica para empresários e profissionais de RH.</p>
+                    <p>Comprometida com a excelência, transparência e conformidade legal.</p>
+                    <p>Dedicada a transformar a gestão de recursos humanos nas organizações.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Contactos</h4>
+                    <p><strong>Telefone:</strong> <a href="tel:+5581999999999">(81) 9 9999-9999</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5581999999999" target="_blank">(81) 9 9999-9999</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:contato@mayracavalcanti.com.br">contato@mayracavalcanti.com.br</a></p>
+                    <p><strong>Endereço:</strong> <a href="https://maps.google.com" target="_blank">Recife, Pernambuco, Brasil</a></p>
+                </div>
+                <div class="footer-column">
+                    <h4>Informações Legais</h4>
+                    <ul>
+                        <li><a href="reclamacoes.html">Livro de Reclamações Online</a></li>
+                        <li><a href="termos.html">Termos e Condições</a></li>
+                        <li><a href="privacidade.html">Política de Privacidade e Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+             <div class="footer-bottom">
+                <p>&copy; 2026  Semiramis Cavalcanti. Todos os direitos reservados.</p>
+                <p>UX UI Development: Trabalho Acadêmico - Edição Web 2025</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
