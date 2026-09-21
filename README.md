@@ -10,7 +10,7 @@ Este projeto foi desenvolvido no âmbito da formação de **Edição Web** do **
 
 🔗 **Website Online**
 
-👉 https://semiramiscavalcanti.github.io/TrabalhoEdicaoWeb2026/
+👉 [https://semiramiscavalcanti.github.io/TrabalhoEdicaoWeb2026/](https://semiramiscavalcanti.github.io/EdicaoWeb_trabalhoAcademico/)
 
 ---
 
